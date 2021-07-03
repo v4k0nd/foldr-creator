@@ -71,7 +71,7 @@ def make_directories(list_directories: list):
 
 
 def main():
-    testing = True
+    testing = False
 
     data = load_yaml(YAML_FILE)
 
