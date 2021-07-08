@@ -1,5 +1,5 @@
 # foldr-creator
-Quick python script to create custom folder structure.
+Quick python script to create custom folder structure predefined in a YAML file.
 
 ## How to use
 The repo will contain a `.exe` file that parses a `dir_structure.yaml.backup` file. Create a copy of the `.yaml.backup` and rename it to just `.yaml`. 
@@ -39,14 +39,14 @@ To install the required packages run:
 pip install -r requirements.txt
 ```
 
-I used `pipenv`, so for that, run this (should find that this repo has a `requirements.txt` file and will install dependencies from there).
+I used `pipenv`, so for that, run this (should find that this repo has a `requirements.txt` file and will install dependencies from there):
 ```sh
 pipenv install
 ```
 
-I used `pyinstaller` to compile this to one file, as far as I know, you can not cross compile (from linux to windows, and vice versa).
+I used `pyinstaller` to compile this to one executable file, as far as I know, you can not cross compile (from linux to windows, and vice versa), so you should compile it on your machine.
 
-To compile it for yourself:
+To compile it for yourself (to get an executable):
 ```sh
 pyinstaller --onefile main.py
 ```
